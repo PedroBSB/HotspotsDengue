@@ -26,7 +26,7 @@ ggmap(basemap) +
 
 dados1<-subset(dados,lon> -53)
 dados2<-subset(dados,lon< -53)
-
+df[which(df$longitude < -53),"Endereço"] #Rua Aparecida do Taboado, 594 - Bairro Santo Antônio
 
 #Região 1
 pdf("Mapa1.pdf", paper="a4r",width=0,height=0)
